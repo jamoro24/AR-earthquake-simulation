@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SimulationScene.unity
+    path: Assets/Scenes/DistantAspectTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dd64f6ab6d465a54eb9fe3e646480536,

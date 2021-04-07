@@ -215,51 +215,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8896178699340407849}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1474343446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1474343448}
-  - component: {fileID: 1474343447}
-  m_Layer: 0
-  m_Name: CopyMovement
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1474343447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474343446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 588c26e1d92063446b3a7b6b51a49658, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  original: {fileID: 8896178699877358305}
-  copy: {fileID: 0}
---- !u!4 &1474343448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474343446}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526143353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8916588249212695737, guid: b27d393dc11bfc04ab4d25e1a8c5bdf4,
@@ -476,7 +431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4584922201280300980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SimulationComp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155864383024634372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.54, y: 15.08, z: 4.71}
+  m_LocalPosition: {x: 4.54, y: -5.63, z: 4.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8896178699877358326}
@@ -559,7 +514,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: -1, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.3527859, y: 0.8222155, z: -0.38438398}
+  m_ConnectedAnchor: {x: -0.3527859, y: 0.8222197, z: -0.38438398}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -728,7 +683,7 @@ GameObject:
   - component: {fileID: 8896178699233973749}
   - component: {fileID: 8896178699233973646}
   - component: {fileID: 8896178699233973647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pole2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8896178699272386803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24627018, y: 0.6157026, z: -0.436234}
+  m_LocalPosition: {x: -0.37, y: 0.6157026, z: -0.436234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1618743054}
@@ -813,6 +768,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8896178699877358326}
     m_Modifications:
+    - target: {fileID: 1082135366421468, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175467483869550, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352114948813630, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386713500692820, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473301405527320, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1603769914748404, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
       propertyPath: m_Name
       value: ZED_Rig_Stereo
@@ -820,6 +795,14 @@ PrefabInstance:
     - target: {fileID: 1603769914748404, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603769914748404, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721814514466412, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4309805032874704, guid: e13ee7e0790c7d243b7aa67fe604acac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1224,7 +1207,7 @@ GameObject:
   - component: {fileID: 8896178699377746214}
   - component: {fileID: 8896178699377746211}
   - component: {fileID: 8896178699377746208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pole1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1317,7 @@ GameObject:
   - component: {fileID: 8896178699650942377}
   - component: {fileID: 8896178699650942376}
   - component: {fileID: 8896178699650942379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1371,7 +1354,7 @@ GameObject:
   - component: {fileID: 8896178699877358331}
   - component: {fileID: 8896178699877358330}
   - component: {fileID: 647053159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,7 +1479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8896178699907717432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1877,7 +1860,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.37017608, y: 0.5108269, z: -0.43723148}
+  m_ConnectedAnchor: {x: -0.37017608, y: 0.5108311, z: -0.43723148}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -2001,7 +1984,7 @@ GameObject:
   - component: {fileID: 8896178700403239563}
   - component: {fileID: 8896178700403239556}
   - component: {fileID: 8896178700403239557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pole3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2239,7 +2222,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.45015144, y: 0.5998022, z: 0.42901775}
+  m_ConnectedAnchor: {x: -0.45015144, y: 0.5998064, z: 0.42901775}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -2298,7 +2281,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: -1, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.34876758, y: 0.6887543, z: 0.4273944}
+  m_ConnectedAnchor: {x: 0.34876758, y: 0.6887522, z: 0.4273944}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -2424,7 +2407,7 @@ GameObject:
   - component: {fileID: 8896178700581701832}
   - component: {fileID: 8896178700581701829}
   - component: {fileID: 8896178700581701826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pole4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
