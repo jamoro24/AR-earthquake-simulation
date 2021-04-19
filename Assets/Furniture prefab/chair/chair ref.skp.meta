@@ -1,120 +1,11 @@
 fileFormatVersion: 2
 guid: 8bec56b6b94696e498e96f5c1612555a
 SketchUpImporter:
-  generateBackFace: 1
-  mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000
-  assetHash:
-    serializedVersion: 2
-    Hash: 62f27d3f96142768cafa12d1ff44b9cd
-  longitude: 139.75
-  latitude: 35.667
-  northCorrection: -0
-  fileUnit: 0
-  sketchUpImportData:
-    defaultCamera:
-      position: {x: -0.9760595, y: 0.962881, z: 0.6793034}
-      lookAt: {x: -0.061386764, y: 0.5055447, z: -0.23536935}
-      up: {x: 0.23570226, y: 0.94280905, z: -0.23570226}
-      fov: 45
-      aspectRatio: 0
-      orthoSize: 1
-      isPerspective: 1
-    scenes: []
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: CR-GA2400F6GNB5-W
-    100004: skp2662
-    100006: skp4E8D
-    100008: skp5556
-    100010: skp6C5B
-    100012: skp98CB
-    100014: skp9A68
-    100016: skpBCAC
-    100018: skpE5A8
-    100020: skpE9BB
-    100022: skpEE3F
-    100024: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    100026: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    100028: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    100030: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    100032: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    100034: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    100036: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    100038: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    100040: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    100042: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
-    400000: //RootNode
-    400002: CR-GA2400F6GNB5-W
-    400004: skp2662
-    400006: skp4E8D
-    400008: skp5556
-    400010: skp6C5B
-    400012: skp98CB
-    400014: skp9A68
-    400016: skpBCAC
-    400018: skpE5A8
-    400020: skpE9BB
-    400022: skpEE3F
-    400024: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    400026: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    400028: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    400030: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    400032: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    400034: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    400036: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    400038: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    400040: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    400042: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
-    2100000: "\u811A"
-    2100002: "\u80CC\u30FB\u5EA7"
-    2100004: "\u80CC\u4E2D"
-    2100006: "\u6A39\u8102\u30FB\u30AD\u30E3\u30B9\u30BF\u30FC"
-    2100008: "\u30A2\u30FC\u30E0"
-    2300000: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    2300002: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    2300004: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    2300006: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    2300008: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    2300010: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    2300012: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    2300014: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    2300016: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    2300018: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
-    3300000: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    3300002: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    3300004: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    3300006: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    3300008: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    3300010: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    3300012: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    3300014: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    3300016: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    3300018: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
-    4300000: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    4300002: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    4300004: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    4300006: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    4300008: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    4300010: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    4300012: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    4300014: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    4300016: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
-    4300018: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    6400000: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#15"
-    6400002: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#16"
-    6400004: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#2"
-    6400006: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#21"
-    6400008: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#23"
-    6400010: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#25"
-    6400012: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#28"
-    6400014: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
-    6400016: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
-    6400018: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#7"
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 2
     materialSearch: 0
     materialLocation: 1
@@ -145,27 +36,30 @@ SketchUpImporter:
     lODScreenPercentages: []
     globalScale: 0.0254
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -174,10 +68,10 @@ SketchUpImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -187,14 +81,24 @@ SketchUpImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 58acd05f1d670d9051e3288bdd0769b8
+  fileUnit: 0

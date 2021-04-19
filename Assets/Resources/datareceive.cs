@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class datareceive : MonoBehaviour
 {
@@ -11,17 +12,18 @@ public class datareceive : MonoBehaviour
     private int j = 0;
     public GameObject sound1;
     public GameObject sound2;
+    public GameObject WarningPos;
     public GameObject warning;
     public ZEDManager zedManager;
 
-
     void Start()
     {
+        File.WriteAllText(DateTime.Now.ToString("yyyy-MM-dd-T-HH-mm-ss.txt"), "");
         zedManager = FindObjectOfType<ZEDManager> ();
         sound1.SetActive(true);
+        StartCoroutine(WarningDisplay());
         StartCoroutine(Wait(24f));
-        //StartCoroutine(WarningDisplay());
-        
+
         Application.targetFrameRate = 100;
 
         rb = GetComponent<Rigidbody>();
@@ -67,20 +69,22 @@ public class datareceive : MonoBehaviour
         
     }
     
-    /*Text msg;
+    Text msg;
+    public int degree = 270;
     /// <summary>
     /// Positions, configures and displays the warning text at the start of the game.
     /// Sets canspawn (which defaults to false) to true once finished, so that drones only spawn afterward. 
-    /// </summary>
+    /// </summary>-
     /// <returns></returns>
     IEnumerator WarningDisplay() 
     {
         GameObject warningMsg = Instantiate(warning); //Spawn the message prefab, which doesn't have the correct text yet. 
 
-        if (zedManager != null) {
-            warningMsg.transform.position = zedManager.OriginPosition + zedManager.OriginRotation * (Vector3.forward * 2);
+        if (zedManager != null)
+        {
+            warningMsg.transform.position = WarningPos.transform.position + (Vector3.forward * 2) + (Vector3.up * 0.75f);//zedManager.OriginPosition + zedManager.OriginRotation * (Vector3.forward * 2);
             Quaternion newRot = Quaternion.LookRotation (zedManager.OriginPosition - warningMsg.transform.position, Vector3.up);
-            warningMsg.transform.eulerAngles = new Vector3 (0, newRot.eulerAngles.y + 180, 0);
+            warningMsg.transform.eulerAngles = new Vector3 (0, newRot.eulerAngles.y + degree, 0);
         }
 
         Text msg = warningMsg.GetComponentInChildren<Text>(); //Find the text in the prefab. 
@@ -89,7 +93,7 @@ public class datareceive : MonoBehaviour
 
         //Add the letters to the message one at a time for effect. 
         int i = 0;
-        string oldText = "WARNING!  DEPLOYING  DRONES!";
+        string oldText = "EARTHQUAKE IMMINENT!";
         string newText = "";
         while (i < oldText.Length) 
         {
@@ -102,7 +106,7 @@ public class datareceive : MonoBehaviour
 
         //Change the warning message by clearing it and adding letters one at a time like before. 
         i = 0;
-        oldText = "DEFEND  YOURSELF!";
+        oldText = "BRACE YOURSELF!";
         newText = "";
         while (i < oldText.Length)
         {
@@ -115,6 +119,6 @@ public class datareceive : MonoBehaviour
 
         Destroy(warningMsg);
         
-    }*/
+    }
 }
 
