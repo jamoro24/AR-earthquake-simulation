@@ -806,7 +806,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49719545}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc0e4dfb527b99944a03710f713b764e, type: 3}
   m_Name: 
@@ -5163,7 +5163,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc0e4dfb527b99944a03710f713b764e, type: 3}
   m_Name: 
@@ -8290,7 +8290,7 @@ Transform:
   m_GameObject: {fileID: 1084861659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0.137, z: -0}
-  m_LocalScale: {x: -0.02, y: 0.28, z: 0.02}
+  m_LocalScale: {x: 0.02, y: 0.28, z: 0.02}
   m_Children: []
   m_Father: {fileID: 7290760662157467737}
   m_RootOrder: 6
@@ -19438,7 +19438,7 @@ MonoBehaviour:
   enableTracking: 1
   enableSpatialMemory: 1
   pathSpatialMemory: 
-  estimateInitialPosition: 0
+  estimateInitialPosition: 1
   trackingIsStatic: 0
   mappingResolutionPreset: 1
   mappingRangePreset: 1
