@@ -8,9 +8,9 @@ public class HeadMovement : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    //public GameObject virtualCam;
+    public GameObject virtualCam;
     public GameObject renderText;
-    //public GameObject actualCam;
+    public GameObject actualCam;
     public GameObject refObject;
     //public GameObject Floor;
     //public GameObject OriginPoint;
@@ -46,13 +46,13 @@ public class HeadMovement : MonoBehaviour
     void FixedUpdate()
     {
         //OriginPos = OriginPoint.transform.position;
-        //Transform virtualCamPos = virtualCam.transform;
+        Transform virtualCamPos = virtualCam.transform;
         Transform renderTextPos = renderText.transform;
-        //Transform actualCamPos = actualCam.transform;
+        Transform actualCamPos = actualCam.transform;
         Transform refObjectPos = refObject.transform;
-        /*var threshold = Vector3.Distance(actualCamPos.position, refObjectPos.position) /
-                        Vector3.Distance(virtualCamPos.position, renderTextPos.position);#1#*/
-        var threshold = 1;
+        var threshold = Vector3.Distance(actualCamPos.position, refObjectPos.position) /
+                        Vector3.Distance(virtualCamPos.position, renderTextPos.position);
+        var thresholdH = 1;
         //Debug.Log(threshold);
         renderText.transform.position = renderTextPos.position + ((posList[posList.Count-delay] - 
                                                                    posList[posList.Count-delay-dist])/threshold);

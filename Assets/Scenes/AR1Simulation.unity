@@ -825,7 +825,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.15
   m_Range: 30
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5093,7 +5093,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.79
+  m_Intensity: 1.12
   m_Range: 30
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -7443,7 +7443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5476b072534945c4b80739b43ff3b21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virtualCam: {fileID: 1048244402}
   renderText: {fileID: 994129719}
+  actualCam: {fileID: 1603769258956256}
   refObject: {fileID: 57287448835686261}
   delay: 10
   dist: 1
@@ -14756,7 +14758,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5476b072534945c4b80739b43ff3b21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virtualCam: {fileID: 2079763526}
   renderText: {fileID: 2004203391}
+  actualCam: {fileID: 1603769258956256}
   refObject: {fileID: 57287448835686261}
   delay: 10
   dist: 1
@@ -30614,7 +30618,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57287448882480762}
   serializedVersion: 2
-  m_Mass: 4
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -30746,8 +30750,8 @@ Rigidbody:
   m_GameObject: {fileID: 8896178699137112629}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 100
-  m_AngularDrag: 1
+  m_Drag: 20
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30873,7 +30877,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57287448835686261}
   serializedVersion: 2
-  m_Mass: 4
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -31087,8 +31091,8 @@ Rigidbody:
   m_GameObject: {fileID: 8896178699540672232}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 100
-  m_AngularDrag: 1
+  m_Drag: 20
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31596,8 +31600,8 @@ Rigidbody:
   m_GameObject: {fileID: 8896178700163507531}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 100
-  m_AngularDrag: 1
+  m_Drag: 20
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31799,8 +31803,8 @@ Rigidbody:
   m_GameObject: {fileID: 8896178700485887754}
   serializedVersion: 2
   m_Mass: 10
-  m_Drag: 100
-  m_AngularDrag: 1
+  m_Drag: 20
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
